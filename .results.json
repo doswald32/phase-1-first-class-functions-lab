@@ -1,0 +1,58 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 1,
+    "start": "2023-12-14T07:43:51.119Z",
+    "end": "2023-12-14T07:43:51.303Z",
+    "duration": 184
+  },
+  "tests": [
+    {
+      "title": "should return a new array containing the first two drivers from the passed-in array",
+      "fullTitle": "index.js returnFirstTwoDrivers() should return a new array containing the first two drivers from the passed-in array",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return an array of the last two drivers",
+      "fullTitle": "index.js returnLastTwoDrivers() should return an array of the last two drivers",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "has the `returnFirstTwoDrivers` function to as its first element",
+      "fullTitle": "index.js selectingDrivers has the `returnFirstTwoDrivers` function to as its first element",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to deeply equal [Function: returnFirstTwoDrivers]",
+        "showDiff": true,
+        "stack": "AssertionError: expected undefined to deeply equal [Function: returnFirstTwoDrivers]\n    at Context.<anonymous> (test/indexTest.js:24:38)\n    at process.processImmediate (node:internal/timers:478:21)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "should return a new array containing the first two drivers from the passed-in array",
+      "fullTitle": "index.js returnFirstTwoDrivers() should return a new array containing the first two drivers from the passed-in array",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return an array of the last two drivers",
+      "fullTitle": "index.js returnLastTwoDrivers() should return an array of the last two drivers",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
